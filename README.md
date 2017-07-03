@@ -9,6 +9,9 @@ It allows you to have a local npm registry with zero configuration. You don't ha
 
 <p align="center"><img src="https://f.cloud.github.com/assets/999113/1795553/680177b2-6a1d-11e3-82e1-02193aa4e32e.png"></p>
 
+## About this newer fork
+Just added ability to use this registry as composer repository. Open `http://localhost:4873/packages.json` so see all packages info.
+
 ## About this fork
 First, thanks @rlidwka for this great software.
 
