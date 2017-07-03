@@ -1,0 +1,25 @@
+{
+  "name": "sinopia-domakas",
+  "version": "1.0.0",
+  "dependencies": {
+    "js-yaml": "*"
+  },
+  "scripts": {
+    "postinstall": "js-yaml package.yaml > package.json ; npm install"
+  },
+  "description": "`sinopia2` - a private/caching npm repository server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domakas/sinopia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domakas/sinopia/issues"
+  },
+  "homepage": "https://github.com/domakas/sinopia#readme"
+}
